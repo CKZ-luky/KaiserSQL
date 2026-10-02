@@ -1,0 +1,17 @@
+{
+  "appId": "com.pocketmysql.lab",
+  "appName": "MySQL 离线实验室",
+  "webDir": "app/lab-dist",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true
+    },
+    "SystemBars": {
+      "style": "LIGHT",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}

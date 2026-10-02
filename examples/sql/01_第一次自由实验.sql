@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS quick_lab
+  CHARACTER SET utf8mb4;
+USE quick_lab;
+CREATE TABLE IF NOT EXISTS notes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  content VARCHAR(200) NOT NULL
+);
+INSERT INTO notes (content)
+VALUES ('我的第一次手机 SQL 实验');
+SELECT id, content FROM notes ORDER BY id;

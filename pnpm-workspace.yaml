@@ -1,0 +1,5 @@
+minimumReleaseAgeExclude:
+  - vite@8.3.2
+storeDir: .runtime/pnpm-store
+cacheDir: .runtime/pnpm-cache
+registry: https://registry.npmjs.org/

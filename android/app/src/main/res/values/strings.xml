@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pocket MySQL</string>
+    <string name="title_activity_main">Pocket MySQL</string>
+    <string name="package_name">com.pocketmysql.practice</string>
+    <string name="custom_url_scheme">com.pocketmysql.practice</string>
+</resources>

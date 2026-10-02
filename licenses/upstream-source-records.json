@@ -1,0 +1,22 @@
+[
+  {
+    "file": "proot-5.1.107.96.zip",
+    "url": "https://github.com/termux/proot/archive/v5.1.107.96.zip",
+    "sha256": "75f654fe60dea92dabff2bf083ae8bfe4f91baa6a1a374786a6bf391015eebaa"
+  },
+  {
+    "file": "talloc-2.4.3.tar.gz",
+    "url": "https://www.samba.org/ftp/talloc/talloc-2.4.3.tar.gz",
+    "sha256": "dc46c40b9f46bb34dd97fe41f548b0e8b247b77a918576733c528e83abd854dd"
+  },
+  {
+    "file": "libandroid-shmem-0.7.tar.gz",
+    "url": "https://github.com/termux/libandroid-shmem/archive/refs/tags/v0.7.tar.gz",
+    "sha256": "1e5ff8459bc0a8c229dd8a94b27d119987e09ef3414331c2b5ebfff20b98e867"
+  },
+  {
+    "file": "mysql-8.0.45.tar.gz",
+    "url": "https://codeload.github.com/mysql/mysql-server/tar.gz/refs/tags/mysql-8.0.45",
+    "sha256": "30bba507ccc4221e29107e0936ce01d85b784697f90f51db1b370d6164fde829"
+  }
+]

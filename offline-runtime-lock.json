@@ -1,0 +1,144 @@
+{
+  "arm64-v8a": {
+    "version": "8.0.45",
+    "source": "docker.io/library/mysql:8.0.45",
+    "manifest": "sha256:0e7040b532c0f2ac8cb822695d33025522acd5252175cb104a5929aa66b40222",
+    "layers": [
+      {
+        "digest": "sha256:b35b830a608cfc2dcaa5da71abe9012e9157f6732d8d283a866aa979b3d292be",
+        "size": 45899787
+      },
+      {
+        "digest": "sha256:dc94f9e40e97c93301716a04c45844be8892d60aa3dfbd672f58e274033719ee",
+        "size": 883
+      },
+      {
+        "digest": "sha256:8295d92b87f72abe5bf6a9b85af5ed9c2a022af1c74d2f5c7471ebdadd6561e9",
+        "size": 737530
+      },
+      {
+        "digest": "sha256:a0a574c190fa744079fa99dd400c0c66c5e897e866021ef68859ad78d6216474",
+        "size": 5793308
+      },
+      {
+        "digest": "sha256:8312482523a97383fa4e1988cf357e22ab500a7532b038ac78364fd1002d7142",
+        "size": 2607
+      },
+      {
+        "digest": "sha256:72c793807e067a08cdd43ebf772868409b33cf69cbd77a40097303ee1e29aeed",
+        "size": 331
+      },
+      {
+        "digest": "sha256:36f4b4c46fca3d35c547c3e8e4238eca72b22e1d9962ea3a7c08c2b3351710ab",
+        "size": 48770063
+      },
+      {
+        "digest": "sha256:4e00e08c28e154b72643b3fef054432fd0e10b43b043ffd82e6c1860117ff6b5",
+        "size": 316
+      },
+      {
+        "digest": "sha256:ce0101c6b71549aedabcd194182fe24f62da1f064fbc08a0b9ef02d3982112a6",
+        "size": 126674353
+      },
+      {
+        "digest": "sha256:f2e378b78be7830395461fb53df8a4bce4542c83d6f417de8c71e5ad4e4cb0dd",
+        "size": 5333
+      },
+      {
+        "digest": "sha256:8daae491d7aa8f4a5f24a4524c1a96fedee9f6bc4a29b16784081cfd8665e123",
+        "size": 122
+      }
+    ],
+    "nativePackages": [
+      {
+        "package": "proot",
+        "version": "5.1.107.96",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/p/proot/proot_5.1.107.96_aarch64.deb",
+        "sha256": "8199dca06dccb693ec09fb1759e3e1ad08b4863f0c11c612f89c20bd9ecdc1a0"
+      },
+      {
+        "package": "libtalloc",
+        "version": "2.4.3",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/libt/libtalloc/libtalloc_2.4.3_aarch64.deb",
+        "sha256": "ac81ad623d74c209718b9f3acb2dd702cc8a88c431e820d212229910b4db29da"
+      },
+      {
+        "package": "libandroid-shmem",
+        "version": "0.7",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/liba/libandroid-shmem/libandroid-shmem_0.7_aarch64.deb",
+        "sha256": "0da3a24d558b93c92bcf8d611e0826a99ff96e396b148e6cdf33b47c47c57ff6"
+      }
+    ]
+  },
+  "x86_64": {
+    "version": "8.0.45",
+    "source": "docker.io/library/mysql:8.0.45",
+    "manifest": "sha256:bcfecfdd2f8c2988c0db7335dfeed0dc336defe7007e98c5308f58168d808a05",
+    "layers": [
+      {
+        "digest": "sha256:bb5107df7baaf29d90d3f3cd5c8b8d9bb0e9786e901a49be069e0d37e4c07bae",
+        "size": 47309813
+      },
+      {
+        "digest": "sha256:59a1a4fb3367dc55623389a4502dafe5c4b80a28e63533023c41bfb0eedfa356",
+        "size": 884
+      },
+      {
+        "digest": "sha256:e69c68c7dd2162edcd7163732030b25dfd837c756bd5a183d6c77e98c793d469",
+        "size": 783555
+      },
+      {
+        "digest": "sha256:b6126bf990b9d25ee02468abf80406b6b2a9aefaf88bc6099d3e85031ee008ae",
+        "size": 6170273
+      },
+      {
+        "digest": "sha256:a77ecc122bf40cbbcf5f49b8436f4f32753dc6d34c305c854ccea4fc5576c664",
+        "size": 2603
+      },
+      {
+        "digest": "sha256:a966b78a59e9f2903466c252de71fa15162f6e6f03d2981a85657e6228696898",
+        "size": 334
+      },
+      {
+        "digest": "sha256:7fc827b16c7b9253c14abed3d8ef38216db3af30db2e948772ad83330b2a0751",
+        "size": 49909952
+      },
+      {
+        "digest": "sha256:c2ccadc91b4fa2f47fa562c638aa8d4e80e9a5b2cb8b12bab4d1f7aea0f83586",
+        "size": 316
+      },
+      {
+        "digest": "sha256:496eb3815f35004486146355aa0a146ac1810270cefb3967e904c07fa657d8ed",
+        "size": 128094881
+      },
+      {
+        "digest": "sha256:c350fcbc37b3909736eeb896c96b6cf30cd3c99cc5a0e4937c61ea3ab0c1b47e",
+        "size": 5334
+      },
+      {
+        "digest": "sha256:26e72ef22e056678f0d595eda7f04328a16be5c81ddb98f155f8d91f17462c8b",
+        "size": 122
+      }
+    ],
+    "nativePackages": [
+      {
+        "package": "proot",
+        "version": "5.1.107.96",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/p/proot/proot_5.1.107.96_x86_64.deb",
+        "sha256": "77ea45540071ca543adda2b51aca2bc3761c52904d013fd0890682288eff9455"
+      },
+      {
+        "package": "libtalloc",
+        "version": "2.4.3",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/libt/libtalloc/libtalloc_2.4.3_x86_64.deb",
+        "sha256": "7ca2eaae2e53b28228a01301bc410b62845403d6317c25b8e0a7f40681de0628"
+      },
+      {
+        "package": "libandroid-shmem",
+        "version": "0.7",
+        "url": "https://packages.termux.dev/apt/termux-main/pool/main/liba/libandroid-shmem/libandroid-shmem_0.7_x86_64.deb",
+        "sha256": "ffa9e4c87467b158b148d0ff92dda796aa038276c2075af3269cdcdb06f25797"
+      }
+    ]
+  }
+}

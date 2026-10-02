@@ -1,0 +1,26 @@
+name: 问题反馈
+description: 报告可复现的安卓离线实验问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请使用虚构数据复现，不上传密码、令牌或私人数据库。
+  - type: input
+    id: environment
+    attributes:
+      label: 手机或模拟器环境
+      description: 手机型号、Android 版本、App 版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重现步骤与最小 SQL
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果与实际结果
+    validations:
+      required: true
