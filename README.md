@@ -33,7 +33,9 @@
 
 ## 开始使用
 
-普通使用不需要搭建后台。获取 ARM64 离线 APK，在手机安装后等待“离线已就绪”，即可在工作台运行下面的实验。若 Release 尚未提供 APK，可按[构建说明](docs/BUILD.md)自行构建。
+本次开源发布提供**源码与学习资料**，可在[版本发布页](https://github.com/CKZ-luky/KaiserSQL/releases/tag/v0.3.1-offline)下载完整手册与练习包，暂未附 APK 二进制包。开发者可按[构建说明](docs/BUILD.md)生成 ARM64 离线 APK。
+
+安装后的普通使用不需要搭建后台。等待“离线已就绪”，即可在工作台运行下面的实验。
 
 ```sql
 CREATE DATABASE IF NOT EXISTS my_lab CHARACTER SET utf8mb4;
